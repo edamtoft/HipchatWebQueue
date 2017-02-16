@@ -1,5 +1,5 @@
 {
-  "name": "hipchatwebqueue",
+  "name": "hipchat-webqueue",
   "version": "1.0.0",
   "description": "Pipes hipchat webhook notifications into a RabbitMq message queue",
   "main": "app.js",
