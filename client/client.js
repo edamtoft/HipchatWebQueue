@@ -17,7 +17,7 @@ class HipchatQueueClient {
       
       // Connect to the AMQP server
 
-      Amqp.connect(process.env.AMQP_CONN, (err,conn) => {
+      Amqp.connect(this._connectionString, (err,conn) => {
         if (err) {
           reject(err);
           return;
